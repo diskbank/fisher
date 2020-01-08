@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1f80095-a88c-473e-a2c7-ed5232c5b4ce" name="Default Changelist" comment="">
+    <list default="true" id="e1f80095-a88c-473e-a2c7-ed5232c5b4ce" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fisher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fisher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yushu_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -45,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (fisher.py)">
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
@@ -185,7 +202,7 @@
       <workItem from="1577422480035" duration="11196000" />
       <workItem from="1577962991385" duration="1004000" />
       <workItem from="1578400120111" duration="5057000" />
-      <workItem from="1578478164648" duration="4048000" />
+      <workItem from="1578478164648" duration="5111000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578479763667</created>
@@ -208,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578480571256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init">
+      <created>1578482413661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578482413661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,27 +261,36 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="398" y="31" key="#Flask_(app.py)/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577419915089" />
+    <state x="1678" y="97" key="#Notifications" timestamp="1578482518756">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1678" y="97" key="#Notifications/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482518756" />
     <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577963382169">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577963382169" />
-    <state x="1698" y="33" key="CommitChangelistDialog2" timestamp="1578480569158">
+    <state x="1698" y="33" key="CommitChangelistDialog2" timestamp="1578483058156">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1698" y="33" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480569158" />
+    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1578482410803" />
+    <state x="1698" y="33" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578483058156" />
     <state width="1230" height="473" key="DebuggerActiveHint" timestamp="1577441704623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1230" height="473" key="DebuggerActiveHint/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577441704623" />
-    <state x="1854" y="150" key="FileChooserDialogImpl" timestamp="1578481353800">
+    <state x="1532" y="128" key="DiffContextDialog" timestamp="1578483016199">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1532" y="128" key="DiffContextDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578483016199" />
+    <state x="1854" y="150" key="FileChooserDialogImpl" timestamp="1578482833962">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1578400573309" />
-    <state x="1854" y="150" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481353800" />
-    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog" timestamp="1578481678851">
+    <state x="1854" y="150" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482833962" />
+    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog" timestamp="1578482598848">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481678851" />
+    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482598848" />
     <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1577965525195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -290,27 +323,31 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="290" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577537129270" />
-    <state x="1562" y="17" key="SettingsEditor" timestamp="1578481631175">
+    <state x="1562" y="17" key="SettingsEditor" timestamp="1578483082507">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1578400601273" />
-    <state x="1562" y="17" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481631175" />
-    <state x="1880" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578403630593">
+    <state x="1562" y="17" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578483082507" />
+    <state x="1678" y="171" key="Vcs.Push.Dialog.v2" timestamp="1578483110960">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1880" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578403630593" />
+    <state x="1678" y="171" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578483110960" />
+    <state x="1880" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578482470273">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1880" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482470273" />
     <state x="237" y="108" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577441306448">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="237" y="108" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577441306448" />
-    <state x="1916" y="229" key="svn.repositoryBrowser" timestamp="1578480340528">
+    <state x="1916" y="229" key="svn.repositoryBrowser" timestamp="1578482823461">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1916" y="229" key="svn.repositoryBrowser/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480340528" />
-    <state x="1915" y="210" key="svn4idea.import.options" timestamp="1578480230712">
+    <state x="1916" y="229" key="svn.repositoryBrowser/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482823461" />
+    <state x="1915" y="210" key="svn4idea.import.options" timestamp="1578482752130">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1915" y="210" key="svn4idea.import.options/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480230712" />
+    <state x="1915" y="210" key="svn4idea.import.options/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578482752130" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fisher$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577420639284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
