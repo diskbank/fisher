@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f80095-a88c-473e-a2c7-ed5232c5b4ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/fisher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/app/web/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/app/web/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/app/web/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/fisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/httper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fisher - 副本/yushu_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="32b70a03-c26b-4095-ab58-022295c2a695" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -204,7 +185,7 @@
       <workItem from="1577422480035" duration="11196000" />
       <workItem from="1577962991385" duration="1004000" />
       <workItem from="1578400120111" duration="5057000" />
-      <workItem from="1578478164648" duration="2183000" />
+      <workItem from="1578478164648" duration="4048000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578479763667</created>
@@ -213,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578479763667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1578480381056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578480381056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1578480571256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578480571256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,23 +241,23 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="147" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577963382169" />
-    <state x="1698" y="33" key="CommitChangelistDialog2" timestamp="1578480378141">
+    <state x="1698" y="33" key="CommitChangelistDialog2" timestamp="1578480569158">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1698" y="33" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480378141" />
+    <state x="1698" y="33" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480569158" />
     <state width="1230" height="473" key="DebuggerActiveHint" timestamp="1577441704623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1230" height="473" key="DebuggerActiveHint/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577441704623" />
-    <state x="1854" y="150" key="FileChooserDialogImpl" timestamp="1578480350530">
+    <state x="1854" y="150" key="FileChooserDialogImpl" timestamp="1578481353800">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
     <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1578400573309" />
-    <state x="1854" y="150" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480350530" />
-    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog" timestamp="1578405189780">
+    <state x="1854" y="150" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481353800" />
+    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog" timestamp="1578481678851">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
-    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578405189780" />
+    <state x="1961" y="331" width="274" height="208" key="Github.ShareDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481678851" />
     <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1577965525195">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -295,11 +290,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="290" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577537129270" />
-    <state x="1562" y="17" key="SettingsEditor" timestamp="1578480060163">
+    <state x="1562" y="17" key="SettingsEditor" timestamp="1578481631175">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
     <state x="186" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1578400601273" />
-    <state x="1562" y="17" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578480060163" />
+    <state x="1562" y="17" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1578481631175" />
     <state x="1880" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578403630593">
       <screen x="1366" y="0" width="1440" height="870" />
     </state>
